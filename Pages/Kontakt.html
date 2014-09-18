@@ -10,11 +10,11 @@
 <body>
     
 
-<form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+<form id="Kontakt" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
     <fieldset>
         <legend>Här kan du ställa en eller flera frågor till mig</legend>
        
-       Ärendetyp: <select name="Olika">
+       Ärendetyp: <select name="Ärende">
        
        <option value="Fråga">Fråga</option>
        <option value="Om mig?!">Om mig?!</option>
@@ -22,23 +22,20 @@
        <option value="Ge mig konstruktiv kritik">Ge mig konstruktiv kritik</option>
        </select><br />
        
-       Titel: <input type="text" name="Fråga"/><br />
-    
-       Fråga: <textarea rows="4" cols="30">
+       Titel: <input type="text" name="text"/><br />
+       Fråga: <textarea name="textområde" rows="4" cols="30">
        </textarea>
     </fieldset>
+
+     <fieldset>
+        <legend>Information om dig</legend>
+        Kontakta mig via mail <input type="checkbox" name="Mail" value="exempel@exempel.com"><br>
+        Kontakta mig via telefon <input type="checkbox" name="Telefon" value="070000000">
+     </fieldset>
+
+     <input type="submit" value="Skicka!">
+
 </form>
-
-<form>
-<fieldset>
-  <legend>Information om dig</legend>
-    Kontakta mig via mail <input type="checkbox" name="Mail" value="Mail"><br>
-    Kontakta mig via telefon <input type="checkbox" name="Telefon" value="Telefon">
-</fieldset>
-
-<input type="button" value="Skicka!">
-
-    </form>
 
 
 </body>
