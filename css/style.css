@@ -1,0 +1,45 @@
+#header
+{
+  background-color: #A80101;
+  height: 300px;
+  width: 1650px;
+  text-align:center;
+  border:2px solid black;
+  
+}
+
+
+
+
+
+#Navigation 
+  {
+  background-color: #3F3F3F;
+  height: 1350px;
+  width: 150px;
+  text-align:center;
+  float: Left;
+  color:Black;
+  border:2px solid black;
+} 
+
+#content
+{
+  background-color:#3B3913;
+  height: 1350px;
+  width: 1489px;
+  text-align: left;
+  float:right;
+  border:2px solid black;
+  
+
+}
+#footer
+{
+  background-color: #AE0B10;
+  height: 150px;
+  width: 1650px;
+  text-align:right;
+  float:left;
+  border:2px solid black;
+} 
