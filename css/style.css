@@ -1,26 +1,26 @@
 #header
 {
-  background-color: #A80101;
+  background-color: #32C7D4;
   height: 300px;
   width: 1650px;
   text-align:center;
   border:2px solid black;
   
 }
-#Navigation 
+#Navigation
   {
-  background-color: #3F3F3F;
+  background-color: #32C7D4;
   height: 1350px;
   width: 150px;
   text-align:center;
   float: Left;
-  color:Black;
+  color:black;
   border:2px solid black;
 } 
 
 #content
 {
-  background-color:#3B3913;
+  background-color:#B8ECF0;
   height: 1350px;
   width: 1489px;
   text-align: left;
@@ -31,10 +31,39 @@
 }
 #footer
 {
-  background-color: #AE0B10;
+  background-color: #32C7D4;
   height: 150px;
   width: 1650px;
   text-align:right;
   float:left;
   border:2px solid black;
+  color:black;
 } 
+
+#Navigation ul   /*listan börjar*/
+{
+  margin:0;
+  padding:0;
+  width:150px;
+  height:1350px;
+  list-style-type:none;
+}
+#Navigation ul li a /*fixar till färgen och blocken*/
+{
+  text-decoration:none;
+  color:black;
+  padding:45px 11px;
+  background-color:#B8ECF0;
+  display:block;
+}
+
+#Navigation ul li a:visited /*fixar så att texten blir vit när dom varit besökta*/
+{
+  color:blue;
+}
+
+#Navigation ul li a:hover, #Navigation ul li/*ställer in vad som händer när man "svävar över blocken"*/
+{
+  color:black;
+  background-color:#075193;
+}
