@@ -9,23 +9,25 @@
     </head>
     
     <body>
-    
+        <div id="background">
         <div id="header">
         <h1>Min laborationsportal</h1>
         </div>
         
+        <div id="Navigation">
         <h4>Här är några navigationslänkar!</h4>
         
         <!--Här har jag mina länkar till de olika katalogerna på min sida!-->
         <ul>
             <li><a href="../Index.html">Index</a></li>
-            <li><a href="Laborationer.html">Laborationer</a></li>
+            <li class="active"><a href="Laborationer.html">Laborationer</a></li>
             <li><a href="Kontakt.html">Kontakt</a></li>
             <li><a href="Presentation.html">Presentation</a></li>
         </ul>
-        
+        </div>
+        <div id="content">
         <h2>Webbteknisk introduktion</h2>
-        
+
         <table border="1">
             
             <thead>
@@ -98,9 +100,9 @@
         </table>
         
         <ul>
-            <li><a href="#Laboration1">Laboration 1</a></li>
+            <div class="link"><li><a href="#Laboration1">Laboration 1</a></li></div>
             
-            <li><a href="#Laboration2">Laboration 2</a></li>
+            <div class="link"><li><a href="#Laboration2">Laboration 2</a></li></div>
         </ul>
         
         <h3><a id="Laboration1">Laboration 1</a></h3>
@@ -110,21 +112,21 @@
         
         <ol>
             <li>www-katalog. Check</li>
-            <li><a href="/Pages/Presentation.html">Ett Första Dokument</a></li>
+            <div class="link"><li><a href="/Pages/Presentation.html">Ett Första Dokument</a></li></div>
             
             
         </ol>
         
         <p>Bilder</p>
         <ol>
-            <li><a href="/Pages/Presentation.html#Bildpåmig">Bilden på mig!</a></li>
-            <li><a href="../Pics/PNGbilden.png">Min loga!</a></li>
-            <li><a href="../Index.html#Minvector">Länk till Vector bilden</a></li>
+            <div class="link"><li><a href="/Pages/Presentation.html#Bildpåmig">Bilden på mig!</a></li></div>
+            <div class="link"><li><a href="../Pics/PNGbilden.png">Min loga!</a></li></div>
+            <div class="link"><li><a href="../Index.html#Minvector">Länk till Vector bilden</a></li></div>
         </ol>
         <p>Videos</p>
         
         <ol>
-            <li><a href="../Index.html#Minvideo">Video</a></li>
+            <div class="link"><li><a href="../Index.html#Minvideo">Video</a></li></div>
         </ol>
         
         <h3><a id="Laboration2">Laboration 2</a></h3>
@@ -148,9 +150,12 @@
                
             </dl></li>
             
+            
             <li>Länkar och listor</li>
             <li>Bilder</li>
             <li>Videos</li>
+            
+            
             
         </ol>
         
@@ -158,10 +163,16 @@
         
         <h4>Min Loga!</h4>
         
-        <a href="../Pics/PNGbilden.png">Klicka här!</a>
+        <div class="link"><a href="../Pics/PNGbilden.png">Klicka här!</a></div>
         
+        </div>
         
+        <div id="footer">
         
+        <p><h2>Kevin Amilunds Sida!!</h2></p>
         
+            
+        </div>
+        </div>
         
     </body>

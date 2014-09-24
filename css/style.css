@@ -1,11 +1,32 @@
+#background
+{
+  width:1400px;
+  position:relative;
+  overflow:hidden;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  height:auto;
+  margin: 0 auto;
+  background:linear-gradient();
+}
+
 #header
 {
   background-color: #32C7D4;
   height: 300px;
-  width: 1650px;
+  width: 1400px;
   text-align:center;
   border:2px solid black;
-  
+}
+#headerForPress
+{
+  background-color: #32C7D4;
+  height: 800px;
+  width: 1400px;
+  text-align:center;
+  border:2px solid black;
 }
 #Navigation
   {
@@ -16,24 +37,27 @@
   float: Left;
   color:black;
   border:2px solid black;
-} 
+  font-size:120%;
+}
+
+
 
 #content
 {
   background-color:#B8ECF0;
   height: 1350px;
-  width: 1489px;
+  width: 1242px;
   text-align: left;
   float:right;
   border:2px solid black;
-  
-
 }
+
+
 #footer
 {
   background-color: #32C7D4;
   height: 150px;
-  width: 1650px;
+  width: 1395px;
   text-align:right;
   float:left;
   border:2px solid black;
@@ -65,5 +89,30 @@
 #Navigation ul li a:hover, #Navigation ul li/*ställer in vad som händer när man "svävar över blocken"*/
 {
   color:black;
-  background-color:#075193;
+  background-color:#32C7D4;
+}
+
+.active
+{
+  text-align:right;
+  color:red;
+  border:1px solid black;
+}
+
+.hover
+{
+  color:red;
+  
+}
+
+.link
+{
+  font-size:120%;
+  padding:10px 1px;
+}
+
+.table
+{
+  float:center;
+  color:black;
 }
