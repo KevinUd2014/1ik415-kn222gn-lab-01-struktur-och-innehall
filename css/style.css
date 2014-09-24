@@ -10,7 +10,7 @@
   height:auto;
   margin: 0 auto;
   background:linear-gradient();
-}
+}/*här har vi backgrund för sidan "hela strukturen"*/
 
 #header
 {
@@ -20,11 +20,11 @@
   background-repeat: no-repeat;
   background-color: #32C7D4;
   height: 300px;
-  width: 1400px;
+  width: 1396px;
   text-align:center;
   border:2px solid black;
-}
-#headerForPress
+}/*huvudet på sidan oftast med förklarande text*/
+#headerForPress/*lite speciell för detta är huvudet för pressentationen speciell då den stora bilden på mig är med!*/
 {
   background-color: #32C7D4;
   height: 800px;
@@ -32,7 +32,7 @@
   text-align:center;
   border:2px solid black;
 }
-#Navigation
+#Navigation/*Navigerings länkarna på vänstra sidan med fler identifikationer längre ner för att man ska få det så fint som möjligt!!*/
   {
   background-color: #32C7D4;
   height: 800px;
@@ -44,8 +44,6 @@
   font-size:120%;
 }
 
-
-
 #content
 {
   background-color:#B8ECF0;
@@ -54,10 +52,10 @@
   text-align: left;
   float:right;
   border:2px solid black;
-}
+}/*innehållet på sidan!*/
 
 
-#footer
+#footer/*foten med bild ochmitt namn*/
 {
   background-image:url(../Pics/Diamant.png);
   background-size:140px 140px;
@@ -117,4 +115,8 @@
 {
   font-size:120%;
   padding:10px 1px;
+}
+.Zombie
+{
+  float:right;
 }
