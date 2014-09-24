@@ -116,7 +116,12 @@
   font-size:120%;
   padding:10px 1px;
 }
-.Zombie
+.Right
 {
   float:right;
+}
+
+.Left
+{
+  float:left;
 }
