@@ -6,6 +6,18 @@
         <meta charset="utf-8"/>
         <Title>Min Laborationsportal</Title>
         <link rel="stylesheet" href="../css/style.css" type="text/css" />
+        
+        <style>
+            ::selection {
+            color:#F7F7F7;
+            background: #D0458E; /* Denna gör det kompatibelt med WebKit/Blink webläsare så som safari och google! */
+            }
+            ::-moz-selection {
+            color:#F7F7F7;
+            background: #D0458E; /* Denna gör koden kompatibell med Gecko webläsare alltså mozilla! */
+            }
+        </style>
+        
     </head>
     
     <body>
@@ -15,7 +27,7 @@
         </div>
         
         <div id="Navigation">
-        <h4>Här är några navigationslänkar!</h4>
+        <h4>Meny</h4>
         
         <!--Här har jag mina länkar till de olika katalogerna på min sida!-->
         <ul>
@@ -27,8 +39,8 @@
         </div>
         <div id="content">
         <h2>Webbteknisk introduktion</h2>
-     <div id="tabell">
-        <table border="1">
+     
+        <table>
             
             <thead>
               <tr>
@@ -98,12 +110,12 @@
                 </tr>
             </tbody>
         </table>
-        </div>
+        
         
         <ul>
-            <div class="link"><li><a href="#Laboration1">Laboration 1</a></li></div>
+            <li class="link"><a href="#Laboration1">Laboration 1</a></li>
             
-            <div class="link"><li><a href="#Laboration2">Laboration 2</a></li></div>
+            <li class="link"><a href="#Laboration2">Laboration 2</a></li>
         </ul>
         
         <h3><a id="Laboration1">Laboration 1</a></h3>
@@ -113,21 +125,21 @@
         
         <ol>
             <li>www-katalog. Check</li>
-            <div class="link"><li><a href="/Pages/Presentation.html">Ett Första Dokument</a></li></div>
+            <li class="link"><a href="/Pages/Presentation.html">Ett Första Dokument</a></li>
             
             
         </ol>
         
         <p>Bilder</p>
         <ol>
-            <div class="link"><li><a href="/Pages/Presentation.html#Bildpåmig">Bilden på mig!</a></li></div>
-            <div class="link"><li><a href="../Pics/PNGbilden.png">Min loga!</a></li></div>
-            <div class="link"><li><a href="../Index.html#Minvector">Länk till Vector bilden</a></li></div>
+            <li class="link"><a href="/Pages/Presentation.html#Bildpåmig">Bilden på mig!</a></li>
+            <li class="link"><a href="../Pics/PNGbilden.png">Min loga!</a></li>
+            <li class="link"><a href="../Index.html#Minvector">Länk till Vector bilden</a></li>
         </ol>
         <p>Videos</p>
         
         <ol>
-            <div class="link"><li><a href="../Index.html#Minvideo">Video</a></li></div>
+            <li class="link"><a href="../Index.html#Minvideo">Video</a></li>
         </ol>
         
         <h3><a id="Laboration2">Laboration 2</a></h3>
@@ -164,13 +176,13 @@
         <!--varför vissas inte detta!-->
         <h4>Min Loga!</h4>
         
-        <div class="link"><a href="../Pics/PNGbilden.png">Klicka här!</a></div>
+        <a class="link" href="../Pics/PNGbilden.png">Klicka här!</a>
         
         </div>
         
         <div id="footer">
         
-        <p><h2>Kevin Amilunds Sida!!</h2></p>
+        <h2>Kevin Amilund Nilsson's Sida ©</h2>
         
             
         </div>

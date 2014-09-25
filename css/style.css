@@ -9,9 +9,8 @@
   right:0;
   height:auto;
   margin: 0 auto;
-  background:linear-gradient();
+  background:transparent;
 }/*här har vi backgrund för sidan "hela strukturen"*/
-
 #header
 {
   background-image:url(../Pics/Diamant.png);
@@ -20,7 +19,6 @@
   background-repeat: no-repeat;
   background-color: #32C7D4;
   height: 300px;
-  width: 1396px;
   text-align:center;
   border:2px solid black;
 }/*huvudet på sidan oftast med förklarande text*/
@@ -28,12 +26,11 @@
 {
   background-color: #32C7D4;
   height: 800px;
-  width: 1400px;
   text-align:center;
   border:2px solid black;
 }
 #Navigation/*Navigerings länkarna på vänstra sidan med fler identifikationer längre ner för att man ska få det så fint som möjligt!!*/
-  {
+{
   background-color: #32C7D4;
   height: 800px;
   width: 150px;
@@ -43,7 +40,6 @@
   border:2px solid black;
   font-size:120%;
 }
-
 #content
 {
   background-color:#B8ECF0;
@@ -54,7 +50,6 @@
   border:2px solid black;
 }/*innehållet på sidan!*/
 
-
 #footer/*foten med bild ochmitt namn*/
 {
   background-image:url(../Pics/Diamant.png);
@@ -63,13 +58,11 @@
   background-repeat: no-repeat;
   background-color: #32C7D4;
   height: 150px;
-  width: 1395px;
-  text-align:right;
-  float:left;
+  text-align:center;
+  clear:both;
   border:2px solid black;
-  color:black;
+  color: black;
 } 
-
 #Navigation ul   /*listan börjar*/
 {
   margin:0;
@@ -86,29 +79,24 @@
   background-color:#B8ECF0;
   display:block;
 }
-
 #Navigation ul li a:visited /*fixar så att texten blir vit när dom varit besökta*/
 {
   color:blue;
 }
-
 #Navigation ul li a:hover, #Navigation ul li/*ställer in vad som händer när man "svävar över blocken"*/
 {
   color:black;
   background-color:#32C7D4;
 }
-
 .active
 {
   text-align:right;
   color:red;
   border:1px solid black;
 }
-
 .hover
 {
   color:red;
-  
 }
 
 .link
@@ -120,13 +108,21 @@
 {
   float:right;
 }
-
 .Left
 {
   float:left;
 }
-#tabell
+table, td, th
 {
   margin-left:380px;
   text-align:center;
+  border:4px Solid Navy;
+}
+.status
+{
+  border:2px solid black;
+}
+h3
+{
+  border-top:solid 4px #32C7D4;
 }
