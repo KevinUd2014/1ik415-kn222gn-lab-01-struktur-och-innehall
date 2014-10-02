@@ -1,0 +1,36 @@
+@media print{
+#background, #content, #header, #headerForPress, #footer{ /*ställer in storleken på allt så att det kommer vara 100%*/
+    
+    width:100%;
+    height:100%;
+    
+}
+#Navigation/*fixar då man på utskriften inte vill se dom olika navigations listorna*/
+{
+    border:none;
+    display:none;
+}
+
+video { display:none; }
+
+    a:link:after, a:visited:after { content:" [" attr(href) "] "; }
+    a:link { font-weight: normal; text-decoration: underline; color:red; }
+
+#header, #content, #footer, #headerForPress
+{
+    border:none;
+    float:none;
+}
+h3, h4, h2
+{
+  border-top:none;
+}
+img
+{
+    max-width:100%;
+}
+table, td, th
+{
+    margin-left:0;
+}
+}

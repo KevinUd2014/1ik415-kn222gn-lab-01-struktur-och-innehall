@@ -25,7 +25,7 @@
 #headerForPress/*lite speciell för detta är huvudet för pressentationen speciell då den stora bilden på mig är med!*/
 {
   background-color: #32C7D4;
-  height: 800px;
+  height: 600px;
   text-align:center;
   border:2px solid black;
 }
@@ -40,6 +40,7 @@
   border:2px solid black;
   font-size:120%;
 }
+
 #content
 {
   background-color:#B8ECF0;
@@ -75,7 +76,7 @@
 {
   text-decoration:none;
   color:black;
-  padding:45px 11px;
+  padding:20px 11px;
   background-color:#B8ECF0;
   display:block;
 }
@@ -88,6 +89,14 @@
   color:black;
   background-color:#32C7D4;
 }
+
+#Navigation a
+{
+  background-image:url("Pics/sprite.png");
+  display:block;
+  background-repeat:no-repeat;
+}
+
 .active
 {
   text-align:right;
@@ -112,6 +121,12 @@
 {
   float:left;
 }
+.PictureOnMe
+{
+  height:500px;
+  width:1000px;
+}
+
 table, td, th
 {
   margin-left:380px;
@@ -122,7 +137,78 @@ table, td, th
 {
   border:2px solid black;
 }
-h3
+h3, h4, h2
 {
   border-top:solid 4px #32C7D4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1
+{
+  font-family:"Times New Roman", Times, serif;
+}
+p, ul, a
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  .Index:hover
+  {
+    background-position: 0px 14px;
+  }
+
+  .Laborationer:hover
+  {
+    background-position: 0px -77px;
+  }
+
+  .Presentation:hover
+  {
+    background-position: 0px -175px;
+  }
+
+  .Kontakt:hover
+  {
+    background-position: 0px -272.5px;
+  }
+  
+  .Index
+  {
+    background-position: 0px -33.7px;
+  }
+  
+  .Laborationer
+  {
+    background-position: 0px -125px;
+  }
+  
+  .Presentation
+  {
+    background-position: 0px -223px;
+  }
+  
+  .Kontakt
+  {background-position: 0px -320px;
+  }
+#fraga
+{
+  border-radius:5px;
+}
+
+#Titel
+{
+  border-radius:5px;
+}
+#Arendetyp
+{
+  border-radius:5px;
+}
+
+label{
+  width:100px;
+  float:left;
+}
+
+fieldset
+{
+  width:400px;
 }

@@ -5,7 +5,10 @@
         <meta charset="utf-8"/> <!--här ser vi att jag har valt att förbereda sidan för användning av å,ä,ö-->
         
         <Title>Kontakt</Title>
+        
         <link rel="stylesheet" href="../css/style.css" type="text/css" />
+        
+        <link rel="stylesheet" media="print" href="../css/Copy.css" />
         
         <style>
             ::selection {
@@ -32,7 +35,7 @@
     <fieldset>
         <legend>Här kan du ställa en eller flera frågor till mig</legend>
        
-       Ärendetyp: <select name="Ärende">
+       <label>Ärendetyp:</label> <select id="Arendetyp" name="Ärende">
        
        <option value="Fråga">Fråga</option>
        <option value="Om mig?!">Om mig?!</option>
@@ -40,14 +43,14 @@
        <option value="Ge mig konstruktiv kritik">Ge mig konstruktiv kritik</option>
        </select><br />
        
-       Titel: <input type="text" name="text"/><br />
-       Fråga: <textarea name="textområde" rows="4" cols="30"></textarea>
+       <label>Titel</label><input id="Titel" type="text" name="text"/><br />
+       <label class="text-area-label">Fråga</label> <textarea name="textområde" id="fraga" rows="4" cols="30"></textarea>
     </fieldset>
 
      <fieldset>
         <legend>Information om dig</legend>
-        Kontakta mig via mail <input type="checkbox" name="Mail" value="exempel@exempel.com"><br>
-        Kontakta mig via telefon <input type="checkbox" name="Telefon" value="070000000">
+        <input type="checkbox" name="Mail" value="exempel@exempel.com">Kontakta mig via mail<br> 
+        <input type="checkbox" name="Telefon" value="070000000">Kontakta mig via telefon
      </fieldset>
 
      <input type="submit" value="Skicka!">
@@ -61,10 +64,10 @@
         <h4>Meny</h4>
             
         <ul>
-            <li><a href="../Index.html">Index</a></li>
-            <li><a href="Laborationer.html">Laborationer</a></li>
-            <li class="active"><a href="Kontakt.html">Kontakt</a></li>
-            <li><a href="Presentation.html">Presentation</a></li> 
+            <li><a class="Index" href="../Index.html">Index</a></li>
+            <li><a class="Laborationer" href="Laborationer.html">Laborationer</a></li>
+            <li class="active"><a class="Kontakt" href="Kontakt.html">Kontakt</a></li>
+            <li><a class="Presentation" href="Presentation.html">Presentation</a></li> 
         </ul>
      </div>
     
