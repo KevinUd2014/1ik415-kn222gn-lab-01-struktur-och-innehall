@@ -1,0 +1,93 @@
+   @media only screen and (min-device-width: 320px) and (max-device-width: 481px) {
+   #background 
+   {
+       padding: 0 !Important;
+       width:480px;
+       background-color:white;
+       height:auto;
+   }
+   
+      #header
+   {
+       background-size:25%;
+       background-position:bottom;
+       position:relative;
+       height:360px;
+       margin:0.1em;
+       overflow:hidden;
+       text-align:center;
+   }
+   
+   #headerForPress
+   {
+       height:auto;
+       overflow:hidden;
+   }
+   
+   .PictureOnMe
+   {
+
+       width:400px;
+       height:250px;
+   }
+  
+   #Navigation
+   {
+       float:none;
+       height:240px;
+       background:none;
+   }
+
+   #Navigation ul li a /*fixar till färgen och blocken*/
+   {
+       width:460px;
+   }
+   #Navigation h4
+   {
+       display:none;
+   }
+
+   #content
+   {
+       width:100%;
+       float:none;
+       max-height:100%;
+       overflow:hidden;
+   }
+   #Zombiebild
+   {
+       float:Right;
+       height:50%;
+       width:50%;
+   }
+   
+
+   
+   #footer
+   {
+       height:150px;
+       overflow:hidden;
+       background-size:20%;
+       background-position:bottom;
+       
+
+   }
+   
+   .HeaderPic
+   {
+       margin:70px 115px;
+       float:left;
+       width:250px;
+       height:150px;
+   }
+   p, h2, h3, dl
+   {
+       margin:0.4em;
+   }
+   
+   .Minvideo
+   {
+       height:200px;
+       width:100%;
+   }
+   }

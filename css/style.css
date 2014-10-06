@@ -20,14 +20,14 @@
   background-color: #32C7D4;
   height: 300px;
   text-align:center;
-  border:2px solid black;
+
 }/*huvudet på sidan oftast med förklarande text*/
 #headerForPress/*lite speciell för detta är huvudet för pressentationen speciell då den stora bilden på mig är med!*/
 {
   background-color: #32C7D4;
   height: 600px;
   text-align:center;
-  border:2px solid black;
+
 }
 #Navigation/*Navigerings länkarna på vänstra sidan med fler identifikationer längre ner för att man ska få det så fint som möjligt!!*/
 {
@@ -37,7 +37,7 @@
   text-align:center;
   float: Left;
   color:black;
-  border:2px solid black;
+
   font-size:120%;
 }
 
@@ -45,10 +45,10 @@
 {
   background-color:#B8ECF0;
   height: auto;
-  width: 1242px;
+  width: 1250px;
   text-align: left;
   float:right;
-  border:2px solid black;
+
 }/*innehållet på sidan!*/
 
 #footer/*foten med bild ochmitt namn*/
@@ -61,7 +61,7 @@
   height: 150px;
   text-align:center;
   clear:both;
-  border:2px solid black;
+
   color: black;
 } 
 #Navigation ul   /*listan börjar*/
@@ -101,7 +101,6 @@
 {
   text-align:right;
   color:red;
-  border:1px solid black;
 }
 .hover
 {
@@ -141,6 +140,7 @@ h3, h4, h2
 {
   border-top:solid 4px #32C7D4;
   font-family: Arial, Helvetica, sans-serif;
+  margin:0.4em;
 }
 h1
 {
@@ -149,6 +149,11 @@ h1
 p, ul, a
 {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+p
+{
+  margin:0.4em;
 }
 
   .Index:hover
@@ -211,4 +216,9 @@ label{
 fieldset
 {
   width:400px;
+}
+#Zombiebild
+{
+  height:400px;
+  width:200px;
 }
