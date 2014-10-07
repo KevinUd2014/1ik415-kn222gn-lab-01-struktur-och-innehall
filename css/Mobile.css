@@ -1,9 +1,7 @@
-   @media only screen and (min-device-width: 320px) and (max-device-width: 481px) {
+ 
    
    body
    {
-      max-width:320px;
-      min-width:481px;
       margin:0;
       padding:0;
    }
@@ -11,8 +9,7 @@
    #background 
    {
        padding: 0 !Important;
-       max-width:320px;
-       min-width:481px;
+       width:100%;
        background-color:white;
        height:auto;
    }
@@ -23,14 +20,14 @@
        background-position:bottom;
        position:relative;
        height:360px;
-       margin:0.1em;
+       margin:0;   
        overflow:hidden;
        text-align:center;
    }
    
    #headerForPress
    {
-       height:auto;
+       height:360px;
        overflow:hidden;
    }
    
@@ -43,13 +40,20 @@
    #Navigation
    {
        float:none;
-       height:240px;
-       background:none;
+       height:268px;
+       width:100%;
+       background-size:auto;
+       overflow:hidden;
+   }
+   #Navigation ul
+   {
+     width:100%;
    }
 
    #Navigation ul li a /*fixar till färgen och blocken*/
    {
-       width:460px;
+      margin:0.2em;
+       width:92%; /*en riktig fuling så här ska det inte va egentligen //pratade med johan om det på redovisningen!*/
    }
    
    #Navigation h4
@@ -67,9 +71,8 @@
    
    #Zombiebild
    {
-       float:Right;
-       height:50%;
-       width:50%;
+       float:right;
+       width:150px;
    }
    
    #footer
@@ -82,10 +85,7 @@
    
    .HeaderPic
    {
-       margin:70px 115px;
-       float:left;
-       width:250px;
-       height:150px;
+
    }
    
    p, h2, h3, dl
@@ -93,10 +93,11 @@
        margin:0.4em;
    }
    
-   .Minvideo
+   #Minvideo
    {
-       height:200px;
-       width:auto;
+       height:220px;
+       width:90%;
+       margin-left:15px;
    }
    
    .table
@@ -104,4 +105,11 @@
       margin-left:4px;
    }
    
-}
+   #Minvector img
+   {
+   width:100%; 
+   }
+   img
+   {
+      max-width:100%;
+   }
