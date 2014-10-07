@@ -82,12 +82,16 @@
 }
 #Navigation ul li a:visited /*fixar så att texten blir vit när dom varit besökta*/
 {
-  color:blue;
+  color:#32C7D4;
 }
 #Navigation ul li a:hover, #Navigation ul li/*ställer in vad som händer när man "svävar över blocken"*/
 {
   color:black;
   background-color:#32C7D4;
+}
+#Navigation .active a
+{
+    background-color:#6698AA;
 }
 
 #Navigation a

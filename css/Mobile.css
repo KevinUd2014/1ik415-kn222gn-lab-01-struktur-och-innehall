@@ -1,13 +1,23 @@
    @media only screen and (min-device-width: 320px) and (max-device-width: 481px) {
+   
+   body
+   {
+      max-width:320px;
+      min-width:481px;
+      margin:0;
+      padding:0;
+   }
+   
    #background 
    {
        padding: 0 !Important;
-       width:480px;
+       max-width:320px;
+       min-width:481px;
        background-color:white;
        height:auto;
    }
    
-      #header
+   #header
    {
        background-size:25%;
        background-position:bottom;
@@ -26,7 +36,6 @@
    
    .PictureOnMe
    {
-
        width:400px;
        height:250px;
    }
@@ -42,6 +51,7 @@
    {
        width:460px;
    }
+   
    #Navigation h4
    {
        display:none;
@@ -54,6 +64,7 @@
        max-height:100%;
        overflow:hidden;
    }
+   
    #Zombiebild
    {
        float:Right;
@@ -61,16 +72,12 @@
        width:50%;
    }
    
-
-   
    #footer
    {
        height:150px;
        overflow:hidden;
        background-size:20%;
        background-position:bottom;
-       
-
    }
    
    .HeaderPic
@@ -80,6 +87,7 @@
        width:250px;
        height:150px;
    }
+   
    p, h2, h3, dl
    {
        margin:0.4em;
@@ -88,6 +96,12 @@
    .Minvideo
    {
        height:200px;
-       width:100%;
+       width:auto;
    }
+   
+   .table
+   {
+      margin-left:4px;
    }
+   
+}
