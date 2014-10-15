@@ -39,3 +39,110 @@ background: Gray;
     display: block; 
 	width: inherit; 
 }
+
+
+.PolaroidImages a:nth-child(1n)
+{
+    -webkit-transform: rotate(-4deg);  
+	-moz-transform: rotate(-4deg); 
+	transform: rotate(-4deg); 
+}
+
+.PolaroidImages a:nth-child(2n)
+{
+    -webkit-transform: rotate(4deg);  
+	-moz-transform: rotate(4deg); 
+	transform: rotate(4deg); 
+}
+
+.PolaroidImages a:nth-child(3n)
+{
+    -webkit-transform: rotate(30deg);  
+	-moz-transform: rotate(30deg); 
+	transform: rotate(30deg); 
+}
+
+.PolaroidImages a:nth-child(4n)
+{
+    -webkit-transform: rotate(-17deg);  
+	-moz-transform: rotate(-17deg); 
+	transform: rotate(-17deg); 
+}
+
+.PolaroidImages a:nth-child(5n)
+{
+    -webkit-transform: rotate(-4deg);  
+	-moz-transform: rotate(-4deg); 
+	transform: rotate(-4deg); 
+}
+
+.PolaroidImages a:nth-child(6n)
+{
+    -webkit-transform: rotate(14deg);  
+	-moz-transform: rotate(14deg); 
+	transform: rotate(14deg); 
+}
+
+.PolaroidImages a:nth-child(7n)
+{
+    -webkit-transform: rotate(-20deg);  
+	-moz-transform: rotate(-20deg); 
+	transform: rotate(-20deg); 
+}
+
+.PolaroidImages a:nth-child(8n)
+{
+    -webkit-transform: rotate(20deg);  
+	-moz-transform: rotate(20deg); 
+	transform: rotate(20deg); 
+}
+
+.PolaroidImages a:nth-child(9n)
+{
+    -webkit-transform: rotate(4deg);  
+	-moz-transform: rotate(4deg); 
+	transform: rotate(4deg); 
+}
+
+.PolaroidImages a:nth-child(10n)
+{
+    -webkit-transform: rotate(-4deg);  
+	-moz-transform: rotate(-4deg); 
+	transform: rotate(-4deg); 
+}
+
+.PolaroidImages a:nth-child(11n)
+{
+    -webkit-transform: rotate(10deg);  
+	-moz-transform: rotate(10deg); 
+	transform: rotate(10deg); 
+}
+
+.PolaroidImages a:nth-child(12n)
+{
+    -webkit-transform: rotate(-10deg);  
+	-moz-transform: rotate(-10deg); 
+	transform: rotate(-10deg); 
+}
+
+.PolaroidImages a:hover
+{
+	-webkit-transform: scale(1.5); /*Funktioner för olika webläsare!!*/
+	-moz-transform: scale(1.5);
+    transform: scale(1.5);
+    z-index:10;               /*Den funktion som gör att bilden lägger sig framför alla andra när man hovrar över den!!*/
+	-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 20px 40px rgba(0,0,0,.7);
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);  /*Skugga för boxarna*/
+}
+
+.PolaroidImages a:focus
+{
+	-webkit-transform: scale(1.5); /*Funktioner för olika webläsare!!*/
+	-moz-transform: scale(1.5);
+    transform: scale(1.5);
+    z-index:10;               /*Den funktion som gör att bilden lägger sig framför alla andra när man hovrar över den!!*/
+	-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 20px 40px rgba(0,0,0,.7);
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);  /*Skugga för boxarna*/
+}
