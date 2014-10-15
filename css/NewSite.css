@@ -1,0 +1,139 @@
+Main
+{
+  width:1400px;
+  overflow:hidden;
+  margin: 0 auto;
+  background:transparent;
+}
+
+header
+{
+  overflow:hidden;
+  background-image:url(../Pics/Diamant.png);
+  background-size:150px 150px;
+  background-position:right 4px center;
+  background-repeat: no-repeat;
+  background-color: #32C7D4;
+  height: 200px;
+  text-align:center;
+}
+
+Nav/*Navigerings länkarna på vänstra sidan med fler identifikationer längre ner för att man ska få det så fint som möjligt!!*/
+{
+  background-color:#B0D798;
+  overflow:hidden;
+  text-align:center;
+  color:black;
+  font-size:100%;
+}
+
+Nav ul   /*listan börjar*/
+{
+    margin-left:25px;
+    height:42px;
+    padding:0;
+}
+
+Nav ul li
+{
+    margin:0 0.1em;
+    float:left;
+    list-style-type:none;
+}
+
+Nav ul li a /*fixar till färgen och blocken*/
+{
+
+  text-decoration:none;
+  color:black;
+  padding:20px 11px;
+  background-color:#B8ECF0;
+  display:block;
+}
+
+Nav ul li a:visited /*fixar så att texten blir vit när dom varit besökta*/
+{
+  color:#32C7D4;
+}
+
+Nav ul li a:hover, Nav ul li/*ställer in vad som händer när man "svävar över blocken"*/
+{
+  color:black;
+  background-color:#32C7D4;
+}
+
+Nav .active a
+{
+    background-color:#6698AA;
+}
+
+.active
+{
+  color:red;
+}
+
+Article
+{
+  float:left;
+  overflow:hidden;
+  width:65%;
+  Background-color:#32C7D4;
+}
+
+Section
+{
+  
+  width:40%;
+  float:left;
+  Margin:45px;
+}
+
+Section ul
+{
+    list-style-type:none;
+}
+
+p, h2, h3
+{
+  Margin:0.3em;
+}
+
+.link
+{
+  font-size:120%;
+  padding:10px 1px;
+}
+
+Aside
+{
+  Background-color:#B0D798;
+  float:right;
+  width:35%;
+  overflow:hidden;
+}
+Aside ul
+{
+    list-style-type:none;
+}
+Aside ul li a
+{
+  text-decoration:none;
+}
+.GoogleLogo{
+  Width:35%;
+  float:right;
+  margin:4px 4px;
+}
+img
+{
+  width:100%;
+}
+footer
+{
+  background-color: #32C7D4;
+  height: 150px;
+  text-align:center;
+  clear:both;
+  color: black;
+  position:relative;
+} 

@@ -179,7 +179,6 @@ p, dt
   {
     background-position: 0px -272.5px;
   }
-  
   .Index
   {
     background-position: 0px -33.7px;
@@ -196,8 +195,10 @@ p, dt
   }
   
   .Kontakt
-  {background-position: 0px -320px;
+  {
+    background-position: 0px -320px;
   }
+
 #fraga
 {
   border-radius:5px;
@@ -241,7 +242,13 @@ fieldset
   margin-top: 0.6em;
 }
 
-#MobilSida/**/
+#MobilSida/**/ img
 {
+  width:300px;
   margin-left:0.6em;
+}
+
+span, .tel, .street-address, .email, .org 
+{
+    margin:0.4em;
 }
