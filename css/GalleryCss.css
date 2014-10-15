@@ -25,3 +25,17 @@ background: Gray;
     position:relative;
 }
 
+.PolaroidImages a:after
+{
+    color: #77C467;  /*Sätter färgen på  */
+	font-size: 22px;
+	content: attr(title);
+	position: relative;
+	top:15px;
+}
+
+.PolaroidImages img
+{
+    display: block; 
+	width: inherit; 
+}
