@@ -1,9 +1,23 @@
+body
+{
+  background-image:url(Pics/BackgroundImage.jpg);
+  background-repeat:no-repeat;
+	background-size:1920px 1080px;
+	width:100%;
+}
 Main
 {
   width:1400px;
   overflow:hidden;
   margin: 0 auto;
   background:transparent;
+}
+top
+{
+  background-color:transparent;
+  color:#000;
+
+  overflow:hidden;
 }
 
 header
@@ -13,14 +27,14 @@ header
   background-size:150px 150px;
   background-position:right 4px center;
   background-repeat: no-repeat;
-  background-color: #32C7D4;
+  background-color: #42B042;
   height: 200px;
   text-align:center;
 }
 
 Nav/*Navigerings länkarna på vänstra sidan med fler identifikationer längre ner för att man ska få det så fint som möjligt!!*/
 {
-  background-color:#B0D798;
+  background-color:#B4B4B4;
   overflow:hidden;
   text-align:center;
   color:black;
@@ -45,47 +59,47 @@ Nav ul li a /*fixar till färgen och blocken*/
 {
 
   text-decoration:none;
-  color:black;
+  color:#000;
   padding:20px 11px;
-  background-color:#B8ECF0;
+  background-color:#42B042;
   display:block;
 }
 
 Nav ul li a:visited /*fixar så att texten blir vit när dom varit besökta*/
 {
-  color:#32C7D4;
+  color:#000;
 }
 
 Nav ul li a:hover, Nav ul li/*ställer in vad som händer när man "svävar över blocken"*/
 {
-  color:black;
-  background-color:#32C7D4;
+  color:#42B042;
+  background-color:#2C632C;
 }
 
 Nav .active a
 {
-    background-color:#6698AA;
+    background-color:#003D00;
 }
 
 .active
 {
-  color:red;
+  color:#000;
 }
 
 Article
 {
+  color:#000;
   float:left;
   overflow:hidden;
   width:65%;
-  Background-color:#32C7D4;
+  Background-color:#ACD8AC;
 }
 
 Section
 {
   
   width:40%;
-  float:left;
-  Margin:45px;
+  Margin:54px;
 }
 
 Section ul
@@ -106,17 +120,20 @@ p, h2, h3
 
 Aside
 {
-  Background-color:#B0D798;
-  float:right;
+  Background-color:#B4B4B4;
+  float:none;
   width:35%;
+  height:100%;
   overflow:hidden;
 }
 Aside ul
 {
     list-style-type:none;
+
 }
 Aside ul li a
 {
+  color:#FF6700;
   text-decoration:none;
 }
 .GoogleLogo{
@@ -130,10 +147,34 @@ img
 }
 footer
 {
-  background-color: #32C7D4;
-  height: 150px;
+  background-color: #42B042;
+  height: 84px;
   text-align:center;
   clear:both;
   color: black;
   position:relative;
 } 
+
+.Comments
+{
+  margin:10px;
+  font-size:82%;
+  height:0;
+  Background-color:transparent;
+  text-align:left;
+  border-style:1px solid black;
+}
+#Namn
+{
+  Height:auto;
+  text-align:left;
+}
+
+  ::selection {
+  color:#42B042;
+  background: Black; /* Denna gör det kompatibelt med WebKit/Blink webläsare så som safari och google! */
+  }
+  ::-moz-selection {
+  color:#42B042;
+  background:Black; /* Denna gör koden kompatibell med Gecko webläsare alltså mozilla! */
+  }

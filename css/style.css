@@ -37,7 +37,6 @@
   text-align:center;
   float: Left;
   color:black;
-
   font-size:120%;
 }
 
@@ -252,3 +251,12 @@ span, .tel, .street-address, .email, .org
 {
     margin:0.4em;
 }
+
+  ::selection {
+  color:#F7F7F7;
+  background: #D0458E; /* Denna gör det kompatibelt med WebKit/Blink webläsare så som safari och google! */
+  }
+  ::-moz-selection {
+  color:#F7F7F7;
+  background: #D0458E; /* Denna gör koden kompatibell med Gecko webläsare alltså mozilla! */
+  }

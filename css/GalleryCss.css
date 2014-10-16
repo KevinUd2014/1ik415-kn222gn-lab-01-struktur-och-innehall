@@ -1,4 +1,11 @@
+body
+{
+	background-image:url(../css/Pics/PhotoGallery/Easy.jpg);
+	background-repeat:no-repeat;
+	background-size:1920px 1080px;
+	width:100%;
 
+}
 #Container
 {
     Width:auto;
@@ -8,27 +15,29 @@
 
 .PolaroidImages a
 {
-background: Gray;
+    background: Gray;
 	display: inline;
 	float: left;
 	margin: 0 15px 30px;
 	padding: 10px 10px 25px;
 	text-align: center;
 	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
-	box-shadow: 0 4px 6px rgba(0,0,0,.3);
-	-webkit-transition: all .15s linear;
-	-moz-transition: all .15s linear;
 	transition: all .15s linear;
 	z-index:0;
     position:relative;
+    
+    -webkit-box-shadow: 18px 11px 14px black;
+	-moz-box-shadow: 18px 11px 14px black;
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	box-shadow: 18px 11px 14px black;
 }
 
 .PolaroidImages a:after
 {
-    color: #77C467;  /*Sätter färgen på  */
+    color: #77C467;  /*Sätter färgen på texten  */
 	font-size: 22px;
+	font-family:Comic, sans-serif;
 	content: attr(title);
 	position: relative;
 	top:15px;
@@ -36,23 +45,26 @@ background: Gray;
 
 .PolaroidImages img
 {
+	-webkit-transition-: All 1s;
+	transition:All 1s;
+	
     display: block; 
 	width: inherit; 
 }
-
-
-.PolaroidImages a:nth-child(1n)
+.PolaroidImages a:nth-child(n)
 {
-    -webkit-transform: rotate(-4deg);  
-	-moz-transform: rotate(-4deg); 
-	transform: rotate(-4deg); 
+	-webkit-transition-: All 1s;
+	transition:All 1s;
+	-webkit-transform: rotate(-10deg);  /*Roterar i vissa sidor*/
+	-moz-transform: rotate(-10deg); /*Roterar i mozilla*/
+	transform: rotate(-10deg); /*Roterar i andra*/
 }
 
-.PolaroidImages a:nth-child(2n)
+.PolaroidImages a:nth-child(2n) /*Dessa gick väldigt fort det var bara göra likadant för alla bilder så man ska ha en sån här för varje bild om man nu ska vrida på dem som jag har förstått*/
 {
-    -webkit-transform: rotate(4deg);  
-	-moz-transform: rotate(4deg); 
-	transform: rotate(4deg); 
+    -webkit-transform: rotate(-20deg);  /*Roterar i vissa sidor*/
+	-moz-transform: rotate(-20deg); /*Roterar i mozilla*/
+	transform: rotate(-20deg); /*Roterar i andra*/
 }
 
 .PolaroidImages a:nth-child(3n)
@@ -62,87 +74,16 @@ background: Gray;
 	transform: rotate(30deg); 
 }
 
-.PolaroidImages a:nth-child(4n)
-{
-    -webkit-transform: rotate(-17deg);  
-	-moz-transform: rotate(-17deg); 
-	transform: rotate(-17deg); 
-}
-
-.PolaroidImages a:nth-child(5n)
-{
-    -webkit-transform: rotate(-4deg);  
-	-moz-transform: rotate(-4deg); 
-	transform: rotate(-4deg); 
-}
-
-.PolaroidImages a:nth-child(6n)
-{
-    -webkit-transform: rotate(14deg);  
-	-moz-transform: rotate(14deg); 
-	transform: rotate(14deg); 
-}
-
-.PolaroidImages a:nth-child(7n)
-{
-    -webkit-transform: rotate(-20deg);  
-	-moz-transform: rotate(-20deg); 
-	transform: rotate(-20deg); 
-}
-
-.PolaroidImages a:nth-child(8n)
-{
-    -webkit-transform: rotate(20deg);  
-	-moz-transform: rotate(20deg); 
-	transform: rotate(20deg); 
-}
-
-.PolaroidImages a:nth-child(9n)
-{
-    -webkit-transform: rotate(4deg);  
-	-moz-transform: rotate(4deg); 
-	transform: rotate(4deg); 
-}
-
-.PolaroidImages a:nth-child(10n)
-{
-    -webkit-transform: rotate(-4deg);  
-	-moz-transform: rotate(-4deg); 
-	transform: rotate(-4deg); 
-}
-
-.PolaroidImages a:nth-child(11n)
-{
-    -webkit-transform: rotate(10deg);  
-	-moz-transform: rotate(10deg); 
-	transform: rotate(10deg); 
-}
-
-.PolaroidImages a:nth-child(12n)
-{
-    -webkit-transform: rotate(-10deg);  
-	-moz-transform: rotate(-10deg); 
-	transform: rotate(-10deg); 
-}
-
-.PolaroidImages a:hover
-{
-	-webkit-transform: scale(1.5); /*Funktioner för olika webläsare!!*/
-	-moz-transform: scale(1.5);
-    transform: scale(1.5);
-    z-index:10;               /*Den funktion som gör att bilden lägger sig framför alla andra när man hovrar över den!!*/
-	-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .7);
-	-moz-box-shadow: 0 20px 40px rgba(0,0,0,.7);
-    box-shadow: 0 10px 20px rgba(0,0,0,.7);  /*Skugga för boxarna*/
-}
-
+.PolaroidImages a:hover,
 .PolaroidImages a:focus
 {
-	-webkit-transform: scale(1.5); /*Funktioner för olika webläsare!!*/
+    z-index:10;               /*Den funktion som gör att bilden lägger sig framför alla andra när man hovrar över den!!*/
+	-webkit-transition-: All 1s;
+	transition:All 1s;
+	-webkit-transform: scale(1.5); /*Funktioner för olika webläsare!!*/ /*Transformerar bilderna i olika webläsare*/
 	-moz-transform: scale(1.5);
     transform: scale(1.5);
-    z-index:10;               /*Den funktion som gör att bilden lägger sig framför alla andra när man hovrar över den!!*/
-	-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .7);
-	-moz-box-shadow: 0 20px 40px rgba(0,0,0,.7);
-    box-shadow: 0 10px 20px rgba(0,0,0,.7);  /*Skugga för boxarna*/
+	-webkit-box-shadow: 0 20px 40px #FFFC00;
+	-moz-box-shadow: 0 20px 40px #FFFC00;
+    box-shadow: 0 10px 20px #FFFC00;  /*Skugga för boxarna*/
 }
